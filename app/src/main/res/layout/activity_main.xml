@@ -28,7 +28,7 @@
                 android:gravity="end|bottom"
                 android:text="@string/zero"
                 android:textColor="@color/white"
-                android:textSize="80dp"
+                android:textSize="80sp"
                 android:fontFamily="sans-serif-light" />
 
         </LinearLayout>
@@ -57,7 +57,7 @@
                     android:backgroundTint="@color/gray1"
                     android:text="@string/ac"
                     android:textColor="@color/black"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -68,7 +68,7 @@
                     android:backgroundTint="@color/gray1"
                     android:text="@string/plusMinus"
                     android:textColor="@color/black"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -79,7 +79,7 @@
                     android:backgroundTint="@color/gray1"
                     android:text="@string/modulo"
                     android:textColor="@color/black"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -90,7 +90,7 @@
                     android:backgroundTint="@color/orange"
                     android:text="@string/division"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -110,7 +110,7 @@
                     android:backgroundTint="@color/gray2"
                     android:text="@string/seven"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -121,7 +121,7 @@
                     android:backgroundTint="@color/gray2"
                     android:text="@string/eight"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -132,8 +132,9 @@
                     android:backgroundTint="@color/gray2"
                     android:text="@string/nine"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
+
                     />
 
                 <com.google.android.material.button.MaterialButton
@@ -143,7 +144,7 @@
                     android:backgroundTint="@color/orange"
                     android:text="@string/multi"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -163,7 +164,7 @@
                     android:backgroundTint="@color/gray2"
                     android:text="@string/four"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="3sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -174,7 +175,7 @@
                     android:backgroundTint="@color/gray2"
                     android:text="@string/five"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -185,7 +186,7 @@
                     android:backgroundTint="@color/gray2"
                     android:text="@string/six"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -196,7 +197,7 @@
                     android:backgroundTint="@color/orange"
                     android:text="@string/minus"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -216,7 +217,7 @@
                     android:backgroundTint="@color/gray2"
                     android:text="@string/one"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -227,7 +228,7 @@
                     android:backgroundTint="@color/gray2"
                     android:text="@string/two"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -239,7 +240,7 @@
                     android:backgroundTint="@color/gray2"
                     android:text="@string/three"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -250,7 +251,7 @@
                     android:backgroundTint="@color/orange"
                     android:text="@string/plus"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
@@ -271,29 +272,29 @@
                     android:gravity="start|center"
                     android:text="@string/zero"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight=".94"
                     android:backgroundTint="@color/gray2"
                     android:text="@string/dot"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight=".94"
                     android:backgroundTint="@color/orange"
                     android:text="@string/equal"
                     android:textColor="@color/white"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:layout_marginHorizontal="10dp"
                     />
 
